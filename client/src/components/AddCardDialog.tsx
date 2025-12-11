@@ -5,6 +5,7 @@ import { z } from "zod";
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
@@ -108,6 +109,9 @@ export default function AddCardDialog({
           <DialogTitle className="text-xl font-semibold">
             Add Gift Card
           </DialogTitle>
+          <DialogDescription>
+            Enter your Visa prepaid gift card details to add it to your wallet.
+          </DialogDescription>
         </DialogHeader>
 
         <Form {...form}>
